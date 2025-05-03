@@ -1,0 +1,85 @@
+
+{
+  "name": "WebABC - Professional Web Design and Development Agency",
+  "short_name": "WebABC",
+  "description": "Professional SEO and web development services",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4361ee",
+  "orientation": "any",
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "/logo-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/logo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/app-screenshot-1.jpg",
+      "sizes": "1280x720",
+      "type": "image/jpeg",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/app-screenshot-2.jpg",
+      "sizes": "720x1280",
+      "type": "image/jpeg",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Contact our team",
+      "url": "/contact",
+      "icons": [{ "src": "/contact-icon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Portfolio",
+      "short_name": "Portfolio",
+      "description": "View our work",
+      "url": "/portfolio",
+      "icons": [{ "src": "/portfolio-icon.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "description": "See our services",
+      "url": "/services",
+      "icons": [{ "src": "/services-icon.png", "sizes": "96x96" }]
+    }
+  ],
+  "categories": [
+    "business",
+    "productivity",
+    "web design",
+    "digital marketing"
+  ],
+  "lang": "en",
+  "dir": "ltr",
+  "related_applications": [],
+  "iarc_rating_id": "",
+  "share_target": {
+    "action": "/share",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "scope": "/",
+  "id": "WebABC-2025",
+  "version": "1.0.0"
+}
